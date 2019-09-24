@@ -53,7 +53,8 @@ bool solveNQueen(int board[][10],int i,int n){
 			}
 			cout<<""<<endl;
 		}
-		return true;
+		cout<<""<<endl;
+		return false;
 	}
 	//Recursive call;
 	// in recursion we assume that our subboard is solve by recursion and we placed queen in current row;
